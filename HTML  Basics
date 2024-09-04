@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title Name</title>
+</head>
+<body>
+    <div class="container">
+        <h1>heading1</h1>
+        <h2>heading2</h1>
+        <h3>heading3</h1>
+        <h4>heading4</h1>
+        <h5>heading5</h1>
+        <h6>heading6</h1>
+            <p>this is para</p>
+            <button>Click me</button>
+            <br/>
+            <a href="https://drive.google.com/drive/folders/1WRtZZF5I7Q1F0ZmTR9XGIrbMdQtUIhho">HTML DRIVE</a>
+            <img src="./codegnan logo.jpeg"
+            <hr/>
+            <div>
+                Divison:Div is ablock level elements,adding new line and 100%width
+            </div>
+            <span>
+                span:span is ainline element,content background space only
+            </span>
+            <br/><br/>
+            <heaing>Header sematic elements</heaing>
+            <section>body sematic elements</section>
+            <footer>footer sematic elements</footer>
+    </div>
+
+    
+</body>
+</html>
