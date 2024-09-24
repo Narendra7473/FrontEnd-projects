@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="Navbar">
+    <ul>
+    <li><a href="#about">About me</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+   </nav>
+   <!--About me section-->
+   <section id="about" class="about-section">
+    <h1>About me</h1>
+    <p>Hello! I'm a web developer with a passion for creatingh beautiful,responsive websites</p>
+   </section>
+   <!--Skills section-->
+    <section id="skills" class="skill-section">
+        <h2>My skills</h2>
+        <div class="skills-grid">
+            <div class="skills">Html</div>
+        <div class="skills">Mysql</div>
+        <div class="skills">Java script</div>
+        <div class="skills">Css</div>
+        </div>
+        
+    </section>
+<!--Skills section-->
+<section id="projects" class="project-section">
+    <h2>projects</h2>
+    <div class="project-grid">
+        <div class="project-card">project-1</div>
+    <div class="project-card">project-2</div>
+    <div class="project-card">project-3</div>
+    </div>
+    
+</section>
+  <!-- Contact Form Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/mdknrgao" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+
+</body>
+</html>
